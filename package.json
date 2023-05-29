@@ -1,5 +1,6 @@
 {
   "name": "package",
+  "type": "module",
   "version": "1.0.0",
   "description": "Мой первый проект на Хекслете",
   "main": "index.js",
@@ -7,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-    "type": "module",
+    "type": "git",
     "url": "git+https://github.com/ultimaredragon/hexlet-js.git"
   },
   "author": "",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/ultimaredragon/hexlet-js/issues"
   },
-  "homepage": "https://github.com/ultimaredragon/hexlet-js#readme"
+  "homepage": "https://github.com/ultimaredragon/hexlet-js#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
 }
